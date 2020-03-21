@@ -1,68 +1,83 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-:root{
+html{
 font-size: 10px;
-padding: 20px 0;
-color: white;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 1.5rem;
+color: #ffffff;
+}
+h3{
+font-size: 2rem;
+font-weight: normal;
+line-height: 1;
+text-align: center;
+}
+.footer__description--blue{
+color: #1da8d0; 
 }
 .container{
-max-width: 1170px;
+max-width: 1180px;
 margin: 0 auto;
-}
-footer{
-background-color: #121116;
 }
 .wrraper{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 60px 0 40px 0;
+padding: 60px 0 32px 0;
+background-color: #121116;
 }
-.logo{
-margin: 30px;
-}
-.social{
-    margin-bottom: 90px;
-}
-.social p{
-text-align: center;
-font-family: 'Open Sans', sans-serif; 
-font-size: 2rem;
-position: relative;
-}
-p::after{
-content: "";
-display: block;
+.footer__social h3{
+padding: 20px 30px ;
 border-bottom: 1px solid #fff;
-position: absolute;
-width: 230px;
-left: -45px;
-bottom: -10px;
 }
-.contacts{
-text-align: center;
-font-size: 1.5rem;
-letter-spacing: 10px;
+.social__links  {
+padding: 0 0 80px ;
+margin: 0 30px;
 }
-.fa-facebook-f:hover,
-.fa-twitter:hover
-{
-color: blue;
-font-size: 2rem;
-cursor: pointer;
+.social__links li {
+display: inline-block;
+margin: 0 10px;
+font-size:2rem;
 }
-.fa-google-plus-g:hover,
-.fa-dribbble:hover{
-color: red;
-font-size: 2rem;
-cursor: pointer;
+.social__links a{
+color: #fff;
 }
-.description{
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 600;
-    font-size: 1.5rem;
+.footer__description{
+padding: 0 5px 0 25px;
 }
-.description span{
-    color: #19c8fa;
+
+.social__links--blue:hover{
+    color:blue;
+ }
+.social__links--red:hover{
+    color:red;
 }
+.social__links i:hover ,
+.social__links i:focus ,
+.social__links i:active{
+    transition: all .4s ease-in;
+    transform: scale(-1,1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
