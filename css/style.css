@@ -18,7 +18,7 @@ font-weight: normal;
 line-height: 1;
 text-align: center;
 }
-.footer__description--blue{
+.description--blue{
 color: #1da8d0; 
 }
 .container{
@@ -32,37 +32,37 @@ align-items: center;
 padding: 60px 0 32px 0;
 background-color: #121116;
 }
-.footer__social h3{
+.social h3{
 padding: 20px 30px ;
 border-bottom: 1px solid #fff;
 }
-.social__links  {
+.links  {
 padding: 0 0 80px ;
 margin: 0 30px;
 text-align: center;
 }
-.social__links li {
+.links li {
 display: inline-block;
 margin: 0 10px;
 font-size:2rem;
 
 }
-.social__links a{
+.links a{
 color: #fff;
 }
-.footer__description{
+.description{
 padding: 0 5px 0 25px;
 }
 
-.social__links--blue:hover{
+.link--blue:hover{
     color:blue;
  }
-.social__links--red:hover{
+.link--red:hover{
     color:red;
 }
-.social__links i:hover ,
-.social__links i:focus ,
-.social__links i:active{
+.link i:hover ,
+.link i:focus ,
+.link i:active{
     transition: all .4s ease-in;
     transform: scale(-1,1.3);
 }
